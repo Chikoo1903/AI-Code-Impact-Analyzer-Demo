@@ -1,4 +1,7 @@
-def calculate_risk(score, blockers=0, overdue_tasks=0):
+def calculate_risk(score, blockers=0, overdue_tasks=0, critical_bugs=0):
+
+    if critical_bugs > 0:
+        return "Critical"
 
     if blockers >= 3:
         return "Critical"
