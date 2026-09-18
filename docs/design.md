@@ -1,0 +1,1 @@
+Initial design document for AI Code Impact Analyzer.
